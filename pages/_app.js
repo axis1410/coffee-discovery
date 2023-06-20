@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+	return (
+		<div>
+			<Component {...pageProps} />;
+			<footer>
+				<center>
+					<p>© 2023 Aditya</p>
+				</center>
+			</footer>
+		</div>
+	);
+};
 
-export default MyApp
+export default MyApp;
