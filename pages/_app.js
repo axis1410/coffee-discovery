@@ -4,11 +4,11 @@ const MyApp = ({ Component, pageProps }) => {
 	return (
 		<div>
 			<Component {...pageProps} />;
-			<footer>
+			{/* <footer>
 				<center>
 					<p>© 2023 Aditya</p>
 				</center>
-			</footer>
+			</footer> */}
 		</div>
 	);
 };

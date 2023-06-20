@@ -9,6 +9,7 @@ const CoffeeStore = () => {
 		<div>
 			Coffee Store Page
 			<Link href='/'>Back to home</Link>
+			<Link href='/coffee-store/dynamic'>Go to page dynamic</Link>
 		</div>
 	);
 };

@@ -8,7 +8,9 @@ const Banner = () => {
 				<span className={styles.title2}>{`Connoisseur`}</span>
 			</h1>
 			<p className={styles.subTitle}>Discover your local coffee stores!</p>
-			<button className={styles.button}>View stores nearby</button>
+			<div className={styles.buttonWrapper}>
+				<button className={styles.button}>View stores nearby</button>
+			</div>
 		</div>
 	);
 };
